@@ -1,0 +1,29 @@
+name: web_portfolio
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  responsive_framework: ^1.5.1
+  smooth_page_indicator: ^1.2.0+3
+  flutter_icons_null_safety: ^1.1.0
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
